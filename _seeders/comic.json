@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Jujutsu Kaisen",
+        "alternativeTitle": 
+            {
+                "ind": ["Pertarungan Sihir"],
+                "eng": ["Sorcery Fight"]
+            }
+        ,
+        "slug": "jujutsu-kaisen",
+        "genre": ["61e172b9f6850ec72a164573"],
+        "cover": 
+            {
+                "onlinePath": "https://cdn.myanimelist.net/images/manga/3/210341l.jpg?_gl=1*gsnxap*_ga*MjE0Mjk4MTMzNS4xNjM2OTQxNzY0*_ga_26FEP9527K*MTYzNjk1MDkyOC4yLjEuMTYzNjk1MDkyOS41OQ.."
+            }
+        ,
+        "rating": "8.5",
+        "desc":
+            {
+                "type": "Manga",
+                "published": "2014"
+            }
+    },
+    {
+        "title": "Kage no Jitsuryokusha ni Naritakute",
+        "alternativeTitle": 
+            {
+                "ind": ["Yang Mulia dalam Bayangan"],
+                "eng": ["The Eminence in Shadow"]
+            }
+        ,
+        "slug": "kage-no-jitsuryokusha-ni-naritakute",
+        "genre": ["61e172b9f6850ec72a164573", "61e17300f6850ec72a16457c"],
+        "cover": 
+            {
+                "onlinePath": "https://cdn.myanimelist.net/images/manga/2/212205l.jpg"
+            }
+        ,
+        "rating": "9.5",
+        "desc":
+            {
+                "type": "Manga",
+                "published": "2016"
+            }
+    }
+  ]
