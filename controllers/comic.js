@@ -3,7 +3,7 @@ const asyncWrapper = require('../middleware/async');
 const {createCustomError} = require('../helper/custom-error');
 
 const getAllComic = asyncWrapper( async (req, res) => {
-    const data = await Comic.find({}).populate('genre')
+    const data = await Comic.find({}, 'title slug cover isPublished rating').populate('genre')
     // res.status(200).json({status:'success', data:{comic, nbHits:comic.length} })
     // res.status(200).json({comic, amount:comic.length})
     res.status(200).json({status:'Success', data, total:data.length })
