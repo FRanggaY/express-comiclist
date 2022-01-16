@@ -6,6 +6,7 @@
 const express = require('express')
 const app = express()
 const comic = require('./routes/comic')
+const genre = require('./routes/genre')
 const connectDB = require('./db/connect')
 require('dotenv').config()
 const notFound = require('./middleware/not-found')
@@ -28,6 +29,7 @@ app.use(express.json())
 
 
 app.use('/api/v1/comic', comic)
+app.use('/api/v1/genre', genre)
 
 app.use(notFound)
 app.use(errorHandlerMiddleware)
