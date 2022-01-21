@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router();
+const auth = require("../middleware/auth");
 
 const {
     getAllComic,
@@ -9,7 +10,7 @@ const {
     deleteComic,
 } = require('../controllers/comic')
 
-router.route('/').get(getAllComic).post(createComic)
-router.route('/:slug').get(getComic).patch(updateComic).delete(deleteComic)
+router.route('/').get(getAllComic).post(auth, createComic)
+router.route('/:slug').get(getComic).patch(auth, updateComic).delete(auth, deleteComic)
 
 module.exports = router
